@@ -18,6 +18,12 @@ public String test()
 {
 	return "this is jenkins webhook test";
 }
+
+// for build periodically use * * * * * for per minute
+//  for build periodically use H/2 * * * * for every 2 minute
+//for build periodically use   0 * * * * for per every hour
+// for every 115 minutes    */15 * * * *
+
 @RequestMapping("/jenkins")
 public String test1()
 {

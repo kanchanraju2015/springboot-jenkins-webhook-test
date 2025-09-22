@@ -34,7 +34,7 @@ public String test1()
 @RequestMapping("/gitpush")
 public String push()
 {
-return "this is gitpush";	
+return "this is gitpush webhook";	
 }
 
 }
